@@ -11,7 +11,7 @@ main.row{
 
 .col header.title{
     color: #11a372;
-    padding: 0px 0px 20px 30px;
+    padding: 0px 0px 5px 0px;
 }
 
 .col .contents{
@@ -52,7 +52,7 @@ main.row{
 }
 
 .box h3{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 0px 6px;
     color: #444;
 }
@@ -63,4 +63,3 @@ main.row{
     color: #666;
     font-size: 18px;
 }
-

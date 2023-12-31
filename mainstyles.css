@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-padding-top: 40px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.StickyNavBar {
+  background-color: rgb(195, 159, 159);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.6s;
+  padding: 1% 1%; /* change karna hai */
+  z-index: 20;
+}
+.StickyNavBar ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 1px;
+  left: 0;
+}
+.StickyNavBar ul li {
+  position: relative;
+  list-style: none;
+}
+.StickyNavBar ul li a {
+  position: relative;
+  text-decoration: none;
+  margin: 0px 5px; /* change karna hai */
+  color: aqua; /* change karna hai */
+  transition: 0.6s;
+}
+
+.sections {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: inline-block;
+  position: relative;
+}

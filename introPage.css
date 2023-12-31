@@ -35,9 +35,9 @@
     font-weight: 600;
   }
 }
-.wrapper {
+#introPage .wrapper {
   background-color: rgba(255, 255, 255, 0);
-  height: 30px;
+  height: 35px;
   display: flex;
 }
 
@@ -95,4 +95,4 @@
   100% {
     transform: translateY(-400%);
   }
-}/*# sourceMappingURL=introPage.css.map */
+}
