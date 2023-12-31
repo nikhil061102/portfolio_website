@@ -41,6 +41,13 @@
   display: flex;
 }
 
+#desc {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  width: 60%;
+}
+
 .words {
   overflow: hidden;
 }
@@ -53,9 +60,6 @@
   animation: spin_words 6s infinite;
 }
 
-.personalinfo {
-  margin-top: 5%;
-}
 .personalinfo .btn {
   width: 100px;
   border-radius: 10px;
